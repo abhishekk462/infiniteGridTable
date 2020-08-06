@@ -22,6 +22,7 @@ const useStyles = makeStyles((theme) => ({
   inline: {
     display: 'inline',
   },
+
 }));
 
 export default function ListView() {

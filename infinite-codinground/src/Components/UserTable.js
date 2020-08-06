@@ -1,6 +1,6 @@
 import React from 'react';
-import MaterialTable from 'material-table';import AddBox from "@material-ui/icons/AddBox";
-import ArrowDownward from "@material-ui/icons/ArrowDownward";
+import MaterialTable from 'material-table';
+
 
 
 class UserTable extends React.Component {
@@ -26,7 +26,6 @@ class UserTable extends React.Component {
 }
   render() {
     const {stats}=this.state;
-    console.log("after render1111111",stats);
     return (
       <React.Fragment>
       <MaterialTable
@@ -55,8 +54,8 @@ class UserTable extends React.Component {
             filtering: true,
             search:false,
             headerStyle: {
-              backgroundColor: 'Grey',
-              color: '#FFFF'
+              backgroundColor: 'white',
+              color: 'red'
             }}
           }
           
